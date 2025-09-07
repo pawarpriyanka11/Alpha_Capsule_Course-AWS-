@@ -8,7 +8,7 @@ It serves as a personal archive of my journey through the course — covering fu
 
 ## 📖 About the Repository  
 This is **not a tutorial repo**, but a **work showcase**.  
-Here, I’ve organized my notes, code snippets, exercises, and project files week by week, reflecting my progress in the Alpha Capsule Course.  
+Here, I’ve organized my notes, code snippets, exercises, and project files reflecting my progress in the Alpha Capsule Course.  
 
 The aim is to:  
 - Keep track of my AWS learning journey  
@@ -17,28 +17,27 @@ The aim is to:
 
 ---
 
+## 🗂️ Topics & Projects Covered  
+
+- **Amazon SQS (Simple Queue Service)**  
+- **Fundamentals of Cloud Computing and AWS**  
+- **AWS Console Account Creation**  
+- **IAM (Identity and Access Management) – Users, Roles, and Permissions**  
+- **EC2 (Website Hosting)**  
+- **S3 Bucket (Website Hosting)**  
+- **AWS Lambda**  
+- **Chatbot Creation**  
+
+---
+
 ## 🗂️ Repository Structure  
 
 ```bash
 Alpha-Capsule-Course-AWS/
-├── Week-01/
-│   ├── Notes.md
-│   ├── Tasks/
-│   └── Resources.md
-├── Week-02/
-│   ├── Notes.md
-│   ├── Project/
-│   └── Resources.md
-├── Week-03/
-│   ├── Notes.md
-│   └── Hands-On/
-├── Week-04/
-│   ├── Notes.md
-│   └── Implementation/
-├── Week-05/
-│   ├── Notes.md
-│   └── Final-Project/
-├── Assets/           # screenshots, diagrams
-├── Docs/             # extended documentation 
+├── Notes/             # Detailed notes on each topic
+├── Projects/          # Hands-on implementations
+├── Screenshots/       # Images of setups, outputs, diagrams
+├── Assets/            # Additional diagrams or supporting files
+├── Docs/              # Extended documentation (optional)
 ├── LICENSE
 └── README.md
