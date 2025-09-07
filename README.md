@@ -38,6 +38,6 @@ Alpha-Capsule-Course-AWS/
 ├── Projects/          # Hands-on implementations
 ├── Screenshots/       # Images of setups, outputs, diagrams
 ├── Assets/            # Additional diagrams or supporting files
-├── Docs/              # Extended documentation (optional)
+├── Docs/              # Extended documentation
 ├── LICENSE
 └── README.md
