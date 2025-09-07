@@ -1,18 +1,49 @@
-# AWS Chatbot File Processing Project
+# Advanced Caterpillar Flag Game
 
-## Project Overview
-This project demonstrates the use of various AWS services to build a chatbot-driven file processing system. Users can interact with a chatbot to upload files, which are then processed automatically using AWS services like S3, Lambda, and SQS.
+A Python game built with Pygame where you control a caterpillar to collect flags.
 
----
+## Features
 
-## Topics Covered
-- **Amazon SQS (Queue):** Queueing system for managing file processing requests.
-- **Fundamentals of Cloud Computing and AWS:** Core AWS concepts and services.
-- **AWS Console Account Creation:** Steps to set up an AWS account and configure resources.
-- **IAM User Access:** Secure access management using AWS Identity and Access Management.
-- **EC2 (Website Hosting):** Hosting the chatbot web application.
-- **S3 Bucket (Website Hosting):** Storing uploaded files and processed results.
-- **AWS Lambda:** Serverless processing triggered by SQS messages.
-- **Chatbot Creation:** Interface for users to interact with the system and submit files.
+- Caterpillar that grows as you collect flags
+- Six colored flags to collect
+- Obstacles to navigate around
+- Particle effects when collecting flags
+- Trail showing the caterpillar's path
+- Menu system with start/quit options
+- High score tracking
+- Sound effects (optional)
 
----
+## Controls
+
+- Arrow keys: Move the caterpillar
+- R: Restart the game
+- ESC: Toggle menu
+
+## Setup
+
+1. Install the requirements:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Run the game:
+   ```
+   python game.py
+   ```
+
+## Optional Sound Files
+
+For sound effects, add these files to the game directory:
+- `collect.wav` - Played when collecting a flag
+- `gameover.wav` - Played when the game ends
+
+The game will work without these files, but will be silent.
+
+## Game Mechanics
+
+- Control the caterpillar to collect all six flags
+- Each flag is worth 50 points
+- The caterpillar grows longer with each flag collected
+- Navigate around blue obstacles
+- Game ends when all flags are collected
+- Try to beat your high score!
