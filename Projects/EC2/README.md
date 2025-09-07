@@ -22,4 +22,3 @@ This project demonstrates using **AWS services** to build a chatbot that can han
 
 ---
 
-## Project Structure
