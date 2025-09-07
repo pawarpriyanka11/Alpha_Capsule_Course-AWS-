@@ -39,6 +39,6 @@ Alpha-Capsule-Course-AWS/
 │   ├── Notes.md
 │   └── Final-Project/
 ├── Assets/           # screenshots, diagrams
-├── Docs/             # extended documentation (if any)
+├── Docs/             # extended documentation 
 ├── LICENSE
 └── README.md
